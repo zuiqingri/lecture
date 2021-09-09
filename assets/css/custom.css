@@ -1,0 +1,12 @@
+#form-section {
+  background: #bdbdbd;
+  padding: 17px;
+  margin-bottom: 1rem;
+  /* background-color: red; */
+  border: 8px dotted #6c6cff;
+  margin-top: 10%;
+}
+
+input[name=name] {
+  border: 3px solid red;
+}

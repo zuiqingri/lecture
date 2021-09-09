@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+.center {
+  text-align: center;
+}
+
+#studentForm {
+  /* background: grey; */
+}
+
+#studentForm input{
+  /* border: none; */
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 15px;
+}
+#studentForm .age{
+  max-width: 80px;
+}
+#studentForm .cpf{
+  max-width: 135px;
+}
+#studentForm .submit{
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+#studentForm .submit:hover{
+  background: #fff;
+  color: #000;
+}
