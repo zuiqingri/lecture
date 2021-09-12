@@ -262,6 +262,8 @@ function addStudentRequest(data){
 });
 }
 
+
+
 function getStudentInfo(id)
 {
   console.log('[Student ID]', id);
@@ -287,6 +289,9 @@ function getStudentInfo(id)
     }
 });
 }
+
+
+
 
 function updateStudentRequest(id){
   $.ajax({
